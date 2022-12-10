@@ -640,10 +640,10 @@ function beatboy() {
 //blues = 70%, purple = 20%, pink = 5%, red = 2.50%, knife = 0.50%
 
 var rarityValue = {
-  milspec: 0.75,
-  restricted: 0.92,
-  classified: 0.97,
-  covert: 0.995,
+  milspec: 2,
+  restricted: 2,
+  classified: 2,
+  covert: 0.001,
 };
 
 function randSkin() {
