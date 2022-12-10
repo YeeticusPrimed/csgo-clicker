@@ -4,7 +4,7 @@
 var itemCounter = 0;
 var fps = 15;
 
-var money = 9999999;
+var money = 7.50;
 var currentCase = "case2";
 var acceptMoneyPerClick = 0.1;
 
@@ -640,10 +640,10 @@ function beatboy() {
 //blues = 70%, purple = 20%, pink = 5%, red = 2.50%, knife = 0.50%
 
 var rarityValue = {
-  milspec: 2,
-  restricted: 2,
-  classified: 2,
-  covert: 0.001,
+  milspec: 0.75,
+  restricted: 0.92,
+  classified: 0.97,
+  covert: 0.995,
 };
 
 function randSkin() {
