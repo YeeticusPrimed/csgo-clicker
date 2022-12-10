@@ -4,9 +4,9 @@
 var itemCounter = 0;
 var fps = 15;
 
-var money = 7.50;
+var money = 9999999;
 var currentCase = "case2";
-var acceptMoneyPerClick = 0.1;
+var acceptMoneyPerClick = 999;
 
 
 
@@ -654,13 +654,13 @@ function randSkin() {
      var identifier;
 
      if (randNum <= rarityValue.milspec) {
-       rarity = "milspec";
+       rarity = "knife";
      } else if (randNum >= rarityValue.milspec && randNum <= rarityValue.restricted) {
-       rarity = "restricted";
+       rarity = "knife";
      } else if (randNum >= rarityValue.restricted && randNum <= rarityValue.classified) {
-       rarity = "classified";
+       rarity = "knife";
      } else if (randNum >= rarityValue.classified && randNum <= rarityValue.covert) {
-       rarity = "covert";
+       rarity = "knife";
      } else {
        rarity = "knife";
      }
